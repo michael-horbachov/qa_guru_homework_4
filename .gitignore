@@ -4,16 +4,13 @@
 # Log file
 *.log
 
-# BlueJ files
-*.ctxt
-
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
 # Properties files
 *.properties
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -23,13 +20,17 @@
 *.rar
 *.iml
 
+# Gradle
+.gradle/
+gradle/
+build/
+/gradlew
+/gradlew.bat
+
 # Project gen files
 .idea/
 .allure/
-.gradle/
 allure-results/
-gradle/
-build/
 bin/
 out/
 logs/
@@ -38,8 +39,6 @@ target/
 .project
 .settings/org.eclipse.buildship.core.prefs
 .vscode
-/gradlew
-/gradlew.bat
 
 # OS generated files
 .DS_store
